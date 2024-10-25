@@ -1,20 +1,29 @@
-Controls
+# Snake Game in Java
 
-Use the arrow keys on your keyboard to control the snake's direction:
+A simple Snake game implemented in Java using Swing for the GUI.
 
-    Up Arrow: Move Up
-    Down Arrow: Move Down
-    Left Arrow: Move Left
-    Right Arrow: Move Right
+## Table of Contents
 
-Gameplay
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
 
-    Objective: Eat as many apples as possible to increase your score.
-    Growth: Each apple eaten increases the snake's length by one unit.
-    Avoid Collisions:
-        Don't hit the walls.
-        Don't run into the snake's own body.
-    Game Over:
-        If you collide with a wall or yourself, the game ends.
-        A "Game Over" message and your score will be displayed.
-        Click the Restart button to play again.
+
+## Introduction
+
+This project is a basic version of the classic Snake game. It is designed to demonstrate fundamental concepts in Java programming and game development with Swing.
+
+## Features
+
+- Responsive snake movement using keyboard arrow keys.
+- Randomly placed apples for the snake to eat.
+- Increasing snake length and score tracking.
+- Game over detection upon collision with walls or self.
+- Option to restart the game after game over.
+
+## Installation
+
+### Prerequisites
+
+- **Java Development Kit (JDK)** 8 or higher.
+
